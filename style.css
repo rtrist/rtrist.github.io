@@ -84,6 +84,9 @@ table {
 
 .pictures {
 	background-color: #F5F6F1;
+	text-align: left;
+	font-size: 30px;
+	color: #233226;
 }
 
 .row {
@@ -112,7 +115,8 @@ td {
 
 th {
     text-align: center;
-    }
+		padding: 20px;
+}
 
 ul {
     list-style: none;
