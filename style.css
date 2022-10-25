@@ -53,8 +53,8 @@ hr {
 hr:after {
 	content: "☾";
  	color: #233226;
-  	display: inline;
-  	background-color: #F5F6F1;
+  display: inline;
+  background-color: #F5F6F1;
  	padding: 10px;
 }
 
@@ -83,25 +83,31 @@ table {
 }
 
 .pictures {
-background-color: #F5F6F1;
+	background-color: #F5F6F1;
 }
 
-
 .row {
+	flex-wrap: wrap;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
 .column {
-	display: flex;
 	padding: 25px;
-	flex-wrap: wrap;
 }
 
 td {
     text-align: left;
     font-family: 'EB Garamond', serif;
+}
+
+.left {
+	text-align: right;
+}
+
+.right {
+	text-align: left;
 }
 
 th {
